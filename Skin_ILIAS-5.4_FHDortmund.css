@@ -17342,6 +17342,35 @@ footer.ilFooter div.il_ealearning img {
 .dropdown-menu li > a:focus {
   text-decoration: none;
 }
+/*TOPBAR*/
+.ilLSOKioskTopBarControls .btn-link {
+  color: #A0A0A0;
+  font-size: 16px;
+}
+.ilLSOKioskTopBarTitle .ilTopTitle {
+  float: right;
+  font-size: 16px;
+}
+/*BODY*/
+.ilLSOKioskMode #mainspacekeeper {
+  padding-top: 50px;
+}
+.ilLSOKioskMode #il_right_col {
+  background-color: transparent;
+  margin-top: 69px;
+}
+.ilLSOKioskModeCurriculum {
+  background-color: transparent;
+}
+.ilLSOKioskMode .ilToolbar {
+  background-color: white;
+}
+div.ilMemberViewMainHeader .ilTopTitle a {
+  color: white;
+}
+div.ilTopMemberView h3 {
+  color: white;
+}
 /*LOGO*/
 @media only screen and (max-width: 767px) {
   .ilMainHeader > header > .row > a.navbar-brand > img {
