@@ -1,0 +1,106 @@
+/*LOGO*/
+@media only screen and (max-width: 767px) {
+  .ilMainHeader > header > .row > a.navbar-brand > img {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+  }
+  div#il_startup_logo img {
+    height: 40px;
+    width: 40px;
+    margin-top: -63px;
+    margin-left: 5px;
+  }
+}
+
+/*MAINMENU*/
+@media only screen and (max-width: 767px) {
+  .ilMainHeader {
+    height: 0px;
+  }
+  .ilMainMenu.ilTopFixed {
+    margin-left: 0px;
+    top: 50px;
+    left: 0px;
+  }
+  #ilTopNav .navbar-nav > li > a {
+    color: lighten(@mid-gray, 10%);
+  }
+#ilTopNav button.navbar-toggle {
+    background-color: @accent-primary;
+    color: white;
+    left: inherit;
+    margin: 5px;
+  }
+  #ilTopNav button.navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  #ilTopNav .navbar-nav > li > a:hover,
+  #ilTopNav .navbar-nav > li > a:active,
+  #ilTopNav .navbar-nav > li > a:focus {
+    background-color: @accent-secondary;
+    color: white;
+  }
+  #ilTopBar.ilTopBar {
+    padding: 5px;
+    height: 50px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+  }
+  #ilTopNav .navbar-nav > .active > a,
+  #ilTopNav .navbar-nav > .open > a,
+  #ilTopNav .navbar-nav > .active > a:hover,
+  #ilTopNav .navbar-nav > .open > a:hover,
+  #ilTopNav .navbar-nav > .active > a:active,
+  #ilTopNav .navbar-nav > .open > a:active,
+  #ilTopNav .navbar-nav > .active > a:focus,
+  #ilTopNav .navbar-nav > .open > a:focus {
+    color: white;
+    background-color: @accent-primary;
+  }
+  #ilTopNav.navbar-default {
+    background-color: @neutral-primary;
+    margin-top: 0px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+  }
+  #ilTopNav button.navbar-toggle:hover {
+    background-color: #7c7c7c;
+  }
+  #ilTopNav.navbar > .navbar-collapse {
+    margin: 0 0 0 0;
+    padding: 0 0 0 5px;
+  }
+  .ilFixedTopSpacer {
+    margin-top: -80px;
+  }
+}
+
+/*BODY*/
+@media (min-width: 1200px) {
+  .container {
+    width: 1400px;
+    padding: 0 30px;
+  }
+}
+
+/*FOOTER*/
+@media only screen and (max-width: 767px) {
+  footer.ilFooter {
+    height: 140px;
+  }
+  footer.ilFooter .ilPermalinkContainer {
+    width: inherit;
+    margin-bottom: 10px;
+  }
+  footer.ilFooter .ilPermalinkContainer > label {
+    width: 20px;
+  }
+  .form-inline .input-group .input-group-addon,
+  .form-inline .input-group .input-group-btn,
+  .form-inline .input-group .form-control {
+    margin-right: 300px;
+  }
+}
