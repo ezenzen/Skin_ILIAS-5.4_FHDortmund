@@ -17120,9 +17120,6 @@ table.mceToolbar td {
 .ilFixedTopSpacer {
   padding-top: 147px;
 }
-.btn-link {
-  color: #ff6600;
-}
 .ilFormHeader,
 .ilFormFooter {
   background-color: #f0f1ea;
@@ -17195,6 +17192,10 @@ div.ilContainerListItemOuterHighlight {
 }
 .il-narrow-content .il-item:hover {
   background-color: #fff9f5;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus {
+  background-color: #ffff9d;
 }
 /*CHAT*/
 .ilOnScreenChatMenuItem .media-body.info a {
