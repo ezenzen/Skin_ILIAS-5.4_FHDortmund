@@ -17140,18 +17140,7 @@ div.ilFrame {
 }
 /*TREEVIEW*/
 a.ilTreeView {
-  top: 160px;
-}
-a.ilTreeView > img {
-  width: 0px;
-  height: 0px;
-}
-a.ilTreeView {
-  background-color: white;
-  border: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  width: 0px;
+  display: none;
 }
 /*HOVER AND HIGHLIGHT*/
 .il_HAccordionHeadActive,
@@ -17276,6 +17265,14 @@ table.calmini td.calminiapp {
 table.calmini td.calminiapp > .il_calmini_monthday > a {
   color: white;
 }
+/*PERSONAL DESKTOP BLOCK*/
+.glyphicon.glyphicon-cog {
+  color: #ff6600;
+}
+/*LEFT NAV*/
+.ilLeftNav {
+  top: 140px;
+}
 footer.ilFooter {
   height: 120px;
 }
@@ -17345,6 +17342,9 @@ footer.ilFooter div.il_ealearning img {
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus {
   text-decoration: none;
+}
+ul.il-mm-selfloading {
+  width: 925px;
 }
 /*TOPBAR*/
 .ilLSOKioskTopBarControls .btn-link {
